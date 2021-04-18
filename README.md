@@ -35,3 +35,4 @@ Run the following command to generate WAR inside project home path
    [Twilio - Sendgrid]: <https://sendgrid.com/docs/api-reference/>
    [Lombok]: <https://projectlombok.org/>
  
+![image](https://user-images.githubusercontent.com/42756812/115143383-97453100-a064-11eb-9b58-b03f1132d6e7.png)
