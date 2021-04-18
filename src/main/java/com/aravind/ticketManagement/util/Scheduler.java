@@ -16,7 +16,7 @@ public class Scheduler {
     @Autowired
     TicketService tktService;
 
-    @Scheduled(cron = "0 * 13 * * ?")
+    @Scheduled(cron = "0 0 23 1/1 * ? *")
     public void closeResolvedTickets() {
         System.out.println("Scheduler running to close resolved tickets 30 days ago");
         List<Ticket> tickets= tktService.getAllTickets();
